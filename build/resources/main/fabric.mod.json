@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "extremerenderdistance",
+  "version": "1.0.0",
+  "name": "Extreme Render Distance",
+  "description": "Odblokowuje suwak renderowania chunków w Minecrafcie i Sodium do 128 chunków!",
+  "authors": [
+    "deloskiytbackup"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/extremerenderdistance/icon.png",
+  "environment": "*",
+  "mixins": [
+    "extremerenderdistance.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21"
+  }
+}
